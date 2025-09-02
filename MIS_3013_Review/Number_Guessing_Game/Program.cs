@@ -1,4 +1,12 @@
-﻿// data_type variable_name = value
+﻿Console.WriteLine("Please input the lower bound value <<");
+string answer = Console.ReadLine();
+int lowerBound = int.Parse(answer);
+
+Console.WriteLine("Please input the upper bound value <<");
+answer = Console.ReadLine();
+int upperBound = int.Parse(answer);
+
+// data_type variable_name = value
 Random r = new Random();
 
 var rando = r.Next(1, 5+1); // generate a random number between 1-5
